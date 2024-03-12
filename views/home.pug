@@ -1,0 +1,11 @@
+extends layout.pug
+
+block number1
+    form.form(action='add' method="POST")
+        input.task(type='text' placeholder='Add your task here', name='todo')
+        button.btn Add
+
+    div.todos
+        p.todo Some stuff to be done
+        p.todo Some stuff to be done
+        p.todo Some stuff to be done

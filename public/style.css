@@ -1,0 +1,55 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 50px auto;
+    height: 80vh;
+}
+
+.logo {
+    text-align: center;
+    font-size: 5rem;
+}
+
+.form {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.todos {
+    padding: 2rem;
+    display: flex;
+    justify-content: space-around;
+    color: white;
+    flex-direction: column;
+}
+
+.todo {
+    background-color: red;
+    padding: 1rem;
+    width: 100%;
+    border: 2px solid #fff;
+}
+
+.task {
+    display: inline-block;
+    padding: 1rem;
+    width: 930px;
+}
+
+.todo:hover {
+    background-color: limegreen;
+}
+.btn {
+    width: 200px;
+    padding: 0.8rem 2rem 0.8rem 2rem;
+    background-color: limegreen;
+    font-size: 1.5rem;
+    color: #fff;
+}
