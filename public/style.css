@@ -53,3 +53,9 @@
     font-size: 1.5rem;
     color: #fff;
 }
+
+.warning {
+    padding-left: 2rem;
+    color: red;
+    font-style: italic;
+}
