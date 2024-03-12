@@ -1,0 +1,16 @@
+{
+  "name": "wt_cw2_16684",
+  "version": "1.0.0",
+  "description": "This is the application created to for CW",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.3",
+    "pug": "^3.0.2"
+  }
+}
