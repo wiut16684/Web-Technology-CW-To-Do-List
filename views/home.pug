@@ -3,6 +3,8 @@ extends layout.pug
 block list-box
     if error 
         p.warning Please add task 
+    if deleted 
+        p.warning Deleted
     form.form(action='add' method="POST")
         input.task(type='text' placeholder='Add your task here', name='todo')
         button.btn Add
@@ -10,6 +12,8 @@ block list-box
     div.todos
         if todos.length
             each todo in todos
-                p.todo #{todo.description}
+                p.todo 
+                    span #{ todo.description }
+                    a.delete(href=`/${ todo.id }/delete`) Delete
         else
             p.todo No any tasks available

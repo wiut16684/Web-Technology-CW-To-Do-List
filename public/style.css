@@ -31,10 +31,14 @@
 }
 
 .todo {
-    background-color: red;
-    padding: 1rem;
+    background-color: blue;
+    padding: 0.4rem;
     width: 100%;
     border: 2px solid #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 2rem;
 }
 
 .task {
@@ -58,4 +62,20 @@
     padding-left: 2rem;
     color: red;
     font-style: italic;
+}
+
+.delete {
+    background-color: red;
+    text-decoration: none;
+    padding: 1rem 0rem;
+    width: 80px;
+    text-align: center;
+    border: #fff 1px solid;
+    color: #fff;
+    font-size: 1rem;
+}
+
+.delete:hover {
+    background-color: white;
+    color: black;
 }

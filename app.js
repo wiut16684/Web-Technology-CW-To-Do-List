@@ -53,6 +53,23 @@ app.post("/add", (req, res) => {
     }
 });
 
+app.get("/:id/delete", (req, res) => {
+    const id = req.params.id;
+    fs.readFile("./data/todos.json", (err, data) => {
+        if (err) throw err;
+        const todos = JSON.parse(data);
+        const filteredTodos = todos.filter((todo) => todo.id != id);
+        fs.writeFile(
+            "./data/todos.json",
+            JSON.stringify(filteredTodos),
+            (err) => {
+                if (err) throw err;
+                res.redirect("/");
+            }
+        );
+    });
+});
+
 app.listen(port, () => {
     console.log(`The application is running on port ${port}`);
 });
