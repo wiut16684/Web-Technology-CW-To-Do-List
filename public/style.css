@@ -6,7 +6,7 @@
 }
 
 body {
-    background-color: orange;
+    background-color: #fda403;
 }
 
 .container {
@@ -35,7 +35,7 @@ body {
 }
 
 .todo {
-    background-color: blue;
+    background-color: #e8751a;
     padding: 0.4rem;
     width: 100%;
     border: 2px solid #fff;
@@ -52,12 +52,12 @@ body {
 }
 
 .todo:hover {
-    background-color: limegreen;
+    background-color: #416d19;
 }
 .btn {
     width: 200px;
     padding: 0.8rem 2rem 0.8rem 2rem;
-    background-color: limegreen;
+    background-color: #9bcf53;
     font-size: 1.5rem;
     color: #fff;
 }
