@@ -5,6 +5,10 @@
     font-family: sans-serif;
 }
 
+body {
+    background-color: orange;
+}
+
 .container {
     max-width: 1200px;
     margin: 50px auto;
@@ -78,4 +82,20 @@
 .delete:hover {
     background-color: white;
     color: black;
+}
+
+.btnUpdate {
+    color: greenyellow;
+    text-decoration: line-through;
+}
+.noUpdate {
+    color: #fff;
+    text-decoration: none;
+}
+
+.warning-message {
+    font-style: italic;
+    font-size: 1.4rem;
+    padding-left: 2rem;
+    margin-top: 5rem;
 }

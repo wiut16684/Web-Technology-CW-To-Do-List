@@ -13,7 +13,12 @@ block list-box
         if todos.length
             each todo in todos
                 p.todo 
-                    span #{ todo.description }
+                    if todo.done
+                        a.btnUpdate(href=`/${ todo.id }/update`) #{ todo.description }
+                    else
+                        a.noUpdate(href=`/${ todo.id }/update`) #{ todo.description }
                     a.delete(href=`/${ todo.id }/delete`) Delete
         else
             p.todo No any tasks available
+    div.warning-message
+        p This web application was created to fulfill Web Technology module’s requirements and does not represent an actual company or service. 
