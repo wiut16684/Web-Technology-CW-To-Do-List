@@ -60,7 +60,7 @@ https://github.com/wiut16684/Web-Technology-CW-To-Do-List.git
 
 There is an add button that users can use to add new tasks, and also delate where users can delate unwanted tasks
 
-In order to update, just press the task so it will be updated
+In order to update, just press the task so it will be updated. In my app, update means the tasks that user have completed so as soon as the task is touched it will be lined through, mening the task that has been done by user.
 
 ### Project structure
 
