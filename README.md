@@ -67,4 +67,6 @@ In order to update, just press the task so it will be updated
 I have used simple clear structure for my application which contains data, public, views, node_modules folders. In data there is json file which user tasks are stured. In public folder I have added my main css file, to give styles for all the elements in the application.
 In views there is 2 pug files which one contains head pard and the other contains body part of my templete.
 
-### Link for hosting
+### Link for the app on hosing service
+
+https://literate-upbeat-chimpanzee.glitch.me/
